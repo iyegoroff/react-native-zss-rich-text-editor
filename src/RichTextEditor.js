@@ -94,7 +94,7 @@ export default class RichTextEditor extends Component {
     const editorAvailableHeight = Dimensions.get('window').height - keyboardHeight - spacing;
     this.setEditorHeight(editorAvailableHeight);
   }
-  
+
   onBridgeMessage(str){
     try {
       const message = JSON.parse(str);
@@ -356,7 +356,7 @@ export default class RichTextEditor extends Component {
     
     listener(this._selectedActions);
   }
-  
+
   enableOnChange() {
     this._sendAction(actions.enableOnChange);
   }
