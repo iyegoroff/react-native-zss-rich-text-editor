@@ -618,7 +618,7 @@ export default class RichTextEditor extends Component {
 const styles = StyleSheet.create({
   modal: {
     flex: 1,
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
     alignItems: 'center',
     backgroundColor: 'rgba(0, 0, 0, 0.5)'
   },
